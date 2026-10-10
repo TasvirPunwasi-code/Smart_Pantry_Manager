@@ -218,6 +218,19 @@ public class RecipeRepository {
                         + "2. Cook the onion and garlic in a little oil.\n"
                         + "3. Add the tomatoes and simmer until softened."));
 
+        recipes.add(new Recipe(21, "Garlic Butter Potatoes",
+                "Crispy, flavourful potatoes with garlic and butter.",
+                requirements(
+                        new RecipeRequirement("potato", 3, "pieces"),
+                        new RecipeRequirement("garlic", 2, "pieces"),
+                        new RecipeRequirement("butter", 30, "g")
+                ),
+                "1. Wash and chop the potatoes into small pieces.\n"
+                        + "2. Boil the potatoes until tender, then drain.\n"
+                        + "3. Melt the butter in a pan and add the chopped garlic.\n"
+                        + "4. Add the potatoes and cook until lightly golden.\n"
+                        + "5. Serve warm."));
+
         return recipes;
     }
 }
