@@ -41,7 +41,6 @@
         android:paddingTop="24dp"
         android:paddingBottom="12dp" />
 
-
     <TextView
         android:id="@+id/txtEmptyPantry"
         android:layout_width="match_parent"
